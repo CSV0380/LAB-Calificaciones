@@ -18,7 +18,7 @@ Pruebe la función en el módulo `calificaciones_test.py` con los siguientes val
 9.1, 7.2 ==> 8.15
 4.0, 6.0 ==> 5.0
 4.0, 3.0 ==> 3.5
-None, 3.0 ==>1.5
+None, 3.0 ==> 1.5
 9.0, None ==> 4.5
 None, None ==> 0.0
 ```
@@ -40,9 +40,7 @@ None, 3.0, None  ==>0
 ```
 #### Apartado c
 
-Escribe una función en el módulo 'calificaciones' llamada `nota_continua` que, dadas una tupla con las notas de los 4 exámenes teóricos del curso, y otra tupla con la nota de los 
-dos exámenes prácticos, devuelva la nota obtenida por evaluación continua. La nota de la evaluación continua se calcula como la media de las notas de los dos cuatrimestres,
-siempre que la nota de ambos cuatrimestres sea superior a 4. Si en alguno de los dos cuatrimestres la nota es inferior a 4, entonces la nota es el mínimo entre 4 y la nota media de los cuatrimestres. El valor None en una nota indica que el alumno no se ha presentado al examen, y se considerará como cero.
+Escribe una función en el módulo 'calificaciones' llamada `nota_continua` que, dadas una tupla con las notas de los 4 exámenes teóricos del curso, y otra tupla con la nota de los dos exámenes prácticos, devuelva la nota obtenida por evaluación continua. La nota de la evaluación continua se calcula como la media de las notas de los dos cuatrimestres, siempre que la nota de ambos cuatrimestres sea superior a 4. Si en alguno de los dos cuatrimestres la nota es inferior a 4, entonces la nota es el mínimo entre 4 y la nota media de los cuatrimestres. El valor None en una nota indica que el alumno no se ha presentado al examen, y se considerará como cero.
 
 _Pruebas_:
 Pruebe la función en el módulo `calificaciones_test.py` con los siguientes valores, siendo los números situados a la izquierda de la flecha las notas del primer examen teórico, del segundo y del examen práctico, respectivamente. La nota obtenida es el número situado a la derecha de la flecha.
